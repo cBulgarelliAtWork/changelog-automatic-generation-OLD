@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Builder
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@ToString
+@ToString(exclude = "customer")
 public class Address implements Serializable {
 
     @Id
