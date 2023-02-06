@@ -42,8 +42,8 @@ split_commits = false
 commit_parsers = [
     { message = "^.*: add", group = "Added"},
     { message = "^.*: support", group = "Added"},
-    { message = "^.*: deprecate", group = "Deprecated"},
-    { message = "^.*: remove", group = "Removed"},
+    { message = "^.*: deprecat", group = "Deprecated"},
+    { message = "^.*: remov", group = "Removed"},
     { message = "^.*: delete", group = "Removed"},
     { message = "^test", group = "Fixed"},
     { message = "^fix", group = "Fixed"},
