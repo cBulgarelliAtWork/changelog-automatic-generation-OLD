@@ -12,7 +12,7 @@ import java.io.Serializable;
 @Builder
 @Data
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@ToString
+@ToString(exclude = "password")
 public class Credential implements Serializable {
 
     @Id
